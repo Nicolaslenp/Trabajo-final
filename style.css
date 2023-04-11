@@ -11,7 +11,6 @@ body{
     margin: 0;
     padding: 5px;
     display: flex;
-    justify-content: end;
 }
 .t{
     border: 2px solid black;
@@ -24,7 +23,13 @@ body{
     cursor: pointer;
  
 }
+.liNav{
+    position: relative;
+}
 .menu{
+    position: absolute;
+    top: 0;
+    right: 0;
     display: flex;
     list-style: none;
 }
@@ -49,6 +54,32 @@ menu{
     font-size: 40px;
     color: #57155d;
 }
+.p1{
+    padding: 5px;
+    margin: 5px;
+    color: rgb(90, 78, 98);
+}
 .logYcarac{
     display: flex;
+}
+.logo{
+    margin: 20px;
+    padding: 10px;
+}
+.ventajas{
+    margin: 10px;
+    padding: 10px;
+}
+.t3{
+    color:  #5b0675;
+    padding: 10px;
+}
+.p3{
+    padding: 10px;
+}
+ul{
+    list-style: none;
+}
+.caract{
+    margin: 5px;
 }
